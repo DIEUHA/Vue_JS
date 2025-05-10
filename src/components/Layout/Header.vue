@@ -8,12 +8,12 @@
             alt="logo"
         /></a>
       </div>
-      <div class="w-2/4 lg:flex lg:justify-center lg:items-center hidden">
+      <div class="w-2/4 lg:flex lg:justify-center lg:items-center">
         <ul class="flex font-bold gap-4 justify-center ">
           <li class="group">
             <a href="#">Home </a>
             <i class="fa-solid fa-angle-right group-hover:rotate-90 px-1 transition-all duration-300 ease-in"></i>
-            <ul class="hidden group-hover:block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
+            <ul class="hidden group-hover:!block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
               <li class="px-5 py-3 flex items-center gap-1 group/test">
                 <div class="w-0 h-1 bg-red-500 group-hover/test:w-3 transition-all ease-in"></div>
                 <a href="#">Home One</a>
@@ -27,7 +27,7 @@
           <li class="group">
             <a href="#">Features </a>
             <i class="fa-solid fa-angle-right group-hover:rotate-90 px-1 transition-all duration-500"></i>
-            <ul class="hidden group-hover:block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
+            <ul class="hidden group-hover:!block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
               <li class="px-5 py-3 flex items-center gap-1 group/test">
                 <div class="w-0 h-1 bg-red-500 group-hover/test:w-3 transition-all ease-in"></div>
                 <a href="#">Home One</a>
@@ -43,7 +43,7 @@
             <i
               class="fa-solid fa-angle-right group-hover:rotate-90 px-1 transition-all duration-500"
             ></i>
-            <ul class="hidden group-hover:block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
+            <ul class="hidden group-hover:!block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
               <li class="px-5 py-3 flex items-center gap-1 group/test">
                 <div class="w-0 h-1 bg-red-500 group-hover/test:w-3 transition-all ease-in"></div>
                 <a href="#">Home One</a>
@@ -59,7 +59,7 @@
             <i
               class="fa-solid fa-angle-right group-hover:rotate-90 px-1 transition-all duration-500"
             ></i>
-            <ul class="hidden group-hover:block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
+            <ul class="hidden group-hover:!block absolute w-[250px] bg-white shadow-md rounded-md transition-all duration-1000 ease-in dark:bg-black">
               <li class="px-5 py-3 flex items-center gap-1 group/test">
                 <div class="w-0 h-1 bg-red-500 group-hover/test:w-3 transition-all ease-in"></div>
                 <a href="#">Home One</a>
@@ -78,7 +78,9 @@
           <input type="text" id="search-box" name="search-box" class= "z-30 p-3 absolute -top-5 -right-[1px] rounded-full w-10 h-10 opacity-0 focus:opacity-100 peer transition-all ease-in duration-500 focus:w-40 focus:border-[0.5px] focus:border-borderColor outline-none"/>
           <label for="search-box" class="peer-focus:z-50 group absolute -top-4 -left-10 border-borderColor size-0 p-5 border rounded-full flex justify-center transition-all duration-500 ease-in items-center cursor-pointer peer-focus:p-[15px]">
             <i class="fa-solid fa-magnifying-glass search-icon absolute peer-focus:group-[]:hidden"></i>
-            <i class="fa-solid fa-xmark close-icon text-lg hidden absolute z-50 peer-focus:group-[]:block  "></i>
+            <i class="fa-solid fa-xmark close-icon text-lg hidden absolute z-50 peer-focus:group-[]:block  ">
+              
+            </i>
           </label>
           
         </div>
@@ -102,7 +104,7 @@
                 <a href="#" class="group-hover:text-blue-600 transition-all ease-in">HOME </a>
                 <i class="fa-solid fa-angle-right"></i>
                 <hr class="my-3" />
-                <ul class="group-hover:block hidden transition-all ease-in">
+                <ul class="group-hover:!block !hidden transition-all ease-in">
                   <li class="group/li flex items-center">
                     <div class="w-0 h-1 bg-red-500 group-hover/li:w-3 transition-all duration-300 ease-in mx-2"></div>
                     <a href="#" class="ml-3 group-hover/li:ml-0 ">Home One</a>

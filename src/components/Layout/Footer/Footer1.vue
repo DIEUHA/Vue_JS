@@ -3,7 +3,7 @@ import SideBlogList from '../SideBlogList.vue';
 import BrowserTag from './BrowserTag.vue';
 </script>
 <template>
-  <footer class="flex lg:gap-4 gap-14 pb-3 mt-8 lg:max-w-[1320px] lg:justify-center lg:mx-auto w-full mx-6 lg:flex-row flex-col dark:bg-black"
+  <footer class="flex lg:gap-4 gap-14 pb-3 mt-8 lg:max-w-[1320px] lg:justify-center lg:mx-auto w-full mx-6 lg:flex-row flex-row dark:bg-black"
   >
     <div class="lg:w-1/6 flex flex-col gap-6">
       <a href="#"
@@ -80,7 +80,7 @@ import BrowserTag from './BrowserTag.vue';
         </li>
       </ul>
     </div>
-    <SideBlogList> </SideBlogList>
+    <SideBlogList cls="lg:w-2/6"> </SideBlogList>
     <BrowserTag> </BrowserTag>
   </footer>
 </template>

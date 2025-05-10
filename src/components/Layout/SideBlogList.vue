@@ -1,9 +1,12 @@
+<script setup>
+const {cls = "lg:w-full"} = defineProps(['cls']); // Truyen bien de custom khi dung component 
+</script>
 <template>
-    <div class="lg:w-2/6 flex flex-col gap-4">
+    <div class="flex flex-col gap-4"  :class="cls">
       <h4 class="text-[24px] font-semibold">Popular Posts</h4>
       <div class="flex flex-col gap-4">
         <div
-          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[1fr_5fr]"
+          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[2fr_5fr]"
         >
           <div class="rounded-2xl overflow-hidden">
             <img
@@ -32,7 +35,7 @@
           </div>
         </div>
         <div
-          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[1fr_5fr]"
+          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[2fr_5fr]"
         >
           <div class="rounded-2xl overflow-hidden">
             <img
@@ -61,7 +64,7 @@
           </div>
         </div>
         <div
-          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[1fr_5fr]"
+          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[2fr_5fr]"
         >
           <div class="rounded-2xl overflow-hidden">
             <img
@@ -90,7 +93,7 @@
           </div>
         </div>
         <div
-          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[1fr_5fr]"
+          class="grid lg:grid-cols-[1fr_2fr] gap-4 group grid-cols-[2fr_5fr]"
         >
           <div class="rounded-2xl overflow-hidden">
             <img
@@ -121,11 +124,7 @@
       </div>
     </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
+
 <style lang="">
     
 </style>
